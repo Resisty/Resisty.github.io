@@ -1,11 +1,7 @@
-Brian Auron
-
-\
+-> Brian Auron <-
 
 3443 19^th^ Avenue South | Minneapolis, MN 55407 | 218.226.8585 |
 brianauron@gmail.com
-
-\
 
 Objective
 
@@ -72,16 +68,12 @@ Minneapolis, MN*
 
 Education
 
-\
-
 -   Bachelor of Arts – Asian Languages & Literature – University of MN –
     December 2007
 
 -   Bachelor of Science – Computer Science – University of MN – May 2011
 
 Activities
-
-\
 
 -   Member, Association for Computing Machinery (ACM), University of MN,
     2009-2011
@@ -97,6 +89,4 @@ Activities
     Systems, Atlanta, GA
 
 References available upon request
-
-\
 
