@@ -1,15 +1,10 @@
-<p style='text-align: center;'>Brian Auron </p>
-
-3443 19^th^ Avenue South | Minneapolis, MN 55407 | 218.226.8585 |
-brianauron@gmail.com
-
-Objective
+### Objective
 
 To obtain a full-time Systems Administrator position that will leverage
 my knowledge in Software Development, Systems Administration, and
 Networking.
 
-Skills Profile
+### Skills Profile
 
 -   Languages & Software: Python, Bash/Shell, Perl, Nagios, Centreon,
     RunDeck, Puppet
@@ -22,13 +17,13 @@ Skills Profile
 
 -   Speak Japanese & Mandarin Chinese
 
-Employment History
+### Employment History
 
 **Information Technology Professional**
 
 April 2013 - Current
 
-*Math Systems – University of Minnesota Math Department, MN*
+*Math Systems - University of Minnesota Math Department, MN*
 
 -   Design, build, and maintain host management system (puppet) and
     orchestration (rundeck)
@@ -42,7 +37,7 @@ April 2013 - Current
 
 June 2011 - April 2013
 
-*Operations Team – Digi International Headquarters, Minnetonka, MN*
+*Operations Team - Digi International Headquarters, Minnetonka, MN*
 
 -   Primarily responsible for monitoring uptime and trending of server
     clusters, in particular iDigi (my.idigi.com)
@@ -66,14 +61,14 @@ Minneapolis, MN*
 
 -   Experience with Amanda backup software, RT Task Management software
 
-Education
+### Education
 
--   Bachelor of Arts – Asian Languages & Literature – University of MN –
+-   Bachelor of Arts - Asian Languages & Literature - University of MN -
     December 2007
 
--   Bachelor of Science – Computer Science – University of MN – May 2011
+-   Bachelor of Science - Computer Science - University of MN - May 2011
 
-Activities
+### Activities
 
 -   Member, Association for Computing Machinery (ACM), University of MN,
     2009-2011
@@ -85,8 +80,5 @@ Activities
 -   Volunteer, 10-11 Software Development Contest
 
 -   Ran Exhibit for nationally-selected User Interface Design Project
-    “*The Infected*” – 2010 Conference on Human Factors in Computing
+    "*The Infected*" - 2010 Conference on Human Factors in Computing
     Systems, Atlanta, GA
-
-References available upon request
-

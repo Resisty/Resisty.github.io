@@ -1,0 +1,23 @@
+#contact h1 {
+	text-align: center;
+	color: grey;
+}
+
+#contact ul {
+	text-align: center;
+	list-style-type: none;
+}
+
+#contact ul li {
+	display: inline;
+}
+
+h2 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 20px;
+}
+h4 {
+	font-size: 16px;
+}
