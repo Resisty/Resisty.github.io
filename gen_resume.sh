@@ -10,9 +10,9 @@ then
 	exit 1
 fi
 
-cp style.css resume.md header.md index.html /var/www/html/resisty/
+cp style.css resume.md header.md index.html /var/www/html/resume/
 pandoc -S -o resume.html header.md resume.md
-cp resume.html /var/www/html/resisty/
+cp resume.html /var/www/html/resume/
 
 command -v wkhtmltopdf >/dev/null 2>&1 || { echo >&2 "Could not find wkhtmltopdf. Please make sure it is installed and try again." ; exit 2; }
 
@@ -23,6 +23,6 @@ then
 	exit 2
 fi
 
-wkhtmltopdf index.html resume.pdf
-cp resume.pdf /var/www/html/resisty/
-chmod -R o+r /var/www/html/resisty
+xvfb-run -a -s "-screen 0 640x480x16" wkhtmltopdf index.html resume.pdf
+mv resume.pdf /var/www/html/resume/
+chmod -R o+r /var/www/html/resume
