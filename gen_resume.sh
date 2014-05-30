@@ -23,6 +23,6 @@ then
 	exit 2
 fi
 
-wkhtmltopdf resume.html resume.pdf
+wkhtmltopdf index.html resume.pdf
 cp resume.pdf /var/www/html/resisty/
 chmod -R o+r /var/www/html/resisty
