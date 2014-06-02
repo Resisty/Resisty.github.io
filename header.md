@@ -1,8 +1,8 @@
 <div class='row' id='contact'>
 # Brian Auron
 
-- 3443 19^th^ Avenue South |
-- Minneapolis, MN 55407 |
+- 1165 Woodbridge St N |
+- St. Paul, MN 55117 |
 - 218.226.8585 |
 - brianauron@gmail.com
 </div>
