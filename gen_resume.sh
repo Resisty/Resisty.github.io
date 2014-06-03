@@ -6,8 +6,14 @@ command -v pandoc >/dev/null 2>&1 || { echo >&2 "Could not find pandoc. Please m
 if [ ! -f style.css ] || [ ! -f resume.md ] || [ ! -f header.md ] || [ ! -f index.html ]
 then
 	echo >&2 "Could not find index page, style sheet, header markdown, or resume markdown.
-	Make sure they both exist and try again!"
+	Make sure they all exist and try again!"
 	exit 1
+fi
+
+if [ ! -d /var/www/html/resume ]
+then
+	mkdir -p /var/www/html/resume
+	chmod 755 /var/www/html/resume
 fi
 
 cp style.css resume.md header.md index.html /var/www/html/resume/
