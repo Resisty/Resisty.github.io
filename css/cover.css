@@ -15,6 +15,7 @@ body {
 #navbar {
 	height: 100%;
 	min-height: 100%;
+	position: relative;
 	background: rgba(0,0,0,0.3);
 }
 
@@ -35,4 +36,21 @@ body {
 
 .nav-pills li a:hover {
 	background-color: #ff9900;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	width: 100%;
+}
+
+footer p, footer p a {
+	color: white;
+	font-size: 10px;
+}
+
+footer p a:hover {
+	color: #ff5500;
 }
