@@ -17,8 +17,8 @@ fi
 
 command -v gem >/dev/null 2>&1 || apt-get install -y ruby
 command -v haml >/dev/null 2>&1 || gem install haml
-haml index.haml > /var/www/html/index.html
-cp -r css /var/www/html
+haml index.haml > index.html
+cp -r css index.html /var/www/html
 
 cd resume
 if [ ! -f style.css ] || [ ! -f resume.md ] || [ ! -f header.md ] || [ ! -f index.html ]
