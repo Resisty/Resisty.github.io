@@ -18,7 +18,8 @@ body {
 }
 
 #nav li a:hover {
-	color: white;
+	color: #ff5500;
+	font-weight: bold;
 }
 
 #nav li, #nav li a {
