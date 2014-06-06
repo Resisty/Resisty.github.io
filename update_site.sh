@@ -3,6 +3,24 @@ set -e
 
 command -v pandoc >/dev/null 2>&1 || { echo >&2 "Could not find pandoc. Please make sure it is installed and try again." ; exit 1; }
 
+if [ ! -d resume ] || [ ! -d css ]
+then
+	echo >&2 "Could not find resume or could not find the css directory. Check your repository."
+	exit 1
+fi
+
+if [ ! -f index.haml ] 
+then
+	echo >&2 "Could not find index.haml. This means something went very wrong with the repository at some point."
+	exit 1
+fi
+
+command -v gem >/dev/null 2>&1 || apt-get install -y ruby
+command -v haml >/dev/null 2>&1 || gem install haml
+haml index.haml > /var/www/html/index.html
+cp -r css /var/www/html
+
+cd resume
 if [ ! -f style.css ] || [ ! -f resume.md ] || [ ! -f header.md ] || [ ! -f index.html ]
 then
 	echo >&2 "Could not find index page, style sheet, header markdown, or resume markdown.
@@ -31,4 +49,4 @@ fi
 
 xvfb-run -a -s "-screen 0 640x480x16" wkhtmltopdf index.html resume.pdf
 mv resume.pdf /var/www/html/resume/
-chmod -R o+r /var/www/html/resume
+chmod -R o+r /var/www/html

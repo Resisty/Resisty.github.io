@@ -1,0 +1,33 @@
+!!! 5
+%html
+  %head
+    %meta{'charset'=>'utf-8'}
+    %meta{'content'=>'IE=edge', 'http-equiv'=>'X-UA-Compatible'}
+    %meta{'content'=>'width=device-width, initial-scale=1','name'=>'viewport'}
+    %link{'href'=>'/favicon.ico','rel'=>'shortcut icon'}
+    %title
+      Brian Auron - brianauron.info
+    %link{'href'=>'//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css','rel'=>'stylesheet'}
+    %link{'href'=>'/css/cover.css','rel'=>'stylesheet'}
+    :css
+      body { background-image: url(/img/orange_bg.jpg);
+              background-size: cover;
+      }
+  %body
+    .sr-only
+      %a{'href'=>'#nav'}
+        Go to navigation
+      %a{'href'=>'#content'}
+        Go to content
+    .site-wrapper
+      .col-xs-12.col-md-3.col-md-offset-1#navbar
+        %h1
+          Brian Auron
+        %ul.nav.nav-pills.nav-stacked#nav{'role'=>'navigation'}
+          %li
+            %a{'href'=>'#'}
+              Home
+          %li
+            %a{'href'=>'/resume'}
+              Resume
+                                                
