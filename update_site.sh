@@ -49,4 +49,20 @@ fi
 
 xvfb-run -a -s "-screen 0 640x480x16" wkhtmltopdf index.html resume.pdf
 mv resume.pdf /var/www/html/resume/
+
+cd ../measurements
+if [ ! -f style.css ] || [ ! -f index.html ] || [ ! -f measurements.html ]
+then
+	echo >&2 "Could not find index page, measurements page, or style sheet.
+	Make sure they all exist and try again!"
+	exit 1
+fi
+
+if [ ! -d /var/www/html/measurements ]
+then
+	mkdir -p /var/www/html/measurements
+	chmod 755 /var/www/html/measurements
+fi
+
+cp style.css index.html measurements.html /var/www/html/measurements/
 chmod -R o+r /var/www/html
