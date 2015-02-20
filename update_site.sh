@@ -63,6 +63,22 @@ then
 	mkdir -p /var/www/html/measurements
 	chmod 755 /var/www/html/measurements
 fi
+cp style.css index.html measurements.html /var/www/html/measurements/
+
+cd ../CanBobiSpendThisMoney
+if [ ! -f style.css ] || [ ! -f index.html ] || [ ! -f CanBobiSpendThisMoney.html ]
+then
+	echo >&2 "Could not find index page, CanBobiSpendThisMoney page, or style sheet.
+	Make sure they all exist and try again!"
+	exit 1
+fi
+
+if [ ! -d /var/www/html/CanBobiSpendThisMoney ]
+then
+	mkdir -p /var/www/html/CanBobiSpendThisMoney
+	chmod 755 /var/www/html/CanBobiSpendThisMoney
+fi
+cp style.css index.html CanBobiSpendThisMoney.html /var/www/html/CanBobiSpendThisMoney/
 
 cd ../characters
 if [ ! -f style.css ] || [ ! -f index.html ]
@@ -78,5 +94,4 @@ then
 	chmod 755 /var/www/html/characters
 fi
 
-cp style.css index.html /var/www/html/measurements/
 chmod -R o+r /var/www/html
