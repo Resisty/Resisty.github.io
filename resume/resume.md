@@ -7,7 +7,7 @@ networking.
 ## Skills Profile
 
 - Languages & Software: Python, Bash/Shell, Perl, Nagios, Centreon, RunDeck, Puppet
-- Operating Systems: Linux (Ubuntu), Solaris, Mac OSX, Windows XP/Vista/7, F5 BigIP Load-Balancer
+- Operating Systems: Linux (Ubuntu/CentOS), Solaris, Mac OSX, Windows XP/Vista/7, F5 BigIP Load-Balancer
 - Enterprise Cloud Servers (RackSpace), open source virtual environments (Libvirt/kvm)
 - Speak Japanese & Mandarin Chinese
 
@@ -15,7 +15,15 @@ networking.
 
 ### Linux Systems Administrator
 
-#### School of Math - University of Minnesota, Minneapolis, MN (April 2013 - Present)
+#### Network Operations Center (NOC) - Jive Software, Portland, OR (November 2014 - Present)
+
+- Monitor and triage incidents for both infrastructure and customer VMs and applications
+- Collaborate on developing and maintaining documentation for common NOC processes, tools, and scripts
+- Develop and maintain source code (Python, jQuery) and database (postgresql) for NOC orchestration and reporting tool
+
+### Linux Systems Administrator
+
+#### School of Math - University of Minnesota, Minneapolis, MN (April 2013 - November 2014)
 
 - Design, build, and maintain host management system (Puppet) and orchestration (RunDeck)
 - Implement documentation standards for all systems applications and backfilled documentation for existing systems.
