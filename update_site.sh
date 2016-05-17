@@ -67,49 +67,4 @@ then
 fi
 cp style.css index.html measurements.html /var/www/html/measurements/
 
-cd ../CanBobiSpendThisMoney
-if [ ! -f style.css ] || [ ! -f index.html ] || [ ! -f CanBobiSpendThisMoney.html ]
-then
-	echo >&2 "Could not find index page, CanBobiSpendThisMoney page, or style sheet.
-	Make sure they all exist and try again!"
-	exit 1
-fi
-
-if [ ! -d /var/www/html/CanBobiSpendThisMoney ]
-then
-	mkdir -p /var/www/html/CanBobiSpendThisMoney
-	chmod 755 /var/www/html/CanBobiSpendThisMoney
-fi
-cp style.css index.html CanBobiSpendThisMoney.html /var/www/html/CanBobiSpendThisMoney/
-
-cd ../jeff-existential-crisis-level
-if [ ! -f style.css ] || [ ! -f index.html ] || [ ! -f jeff-existential-crisis-level.html ]
-then
-	echo >&2 "Could not find index page, jeff-existential-crisis-level page, or style sheet.
-	Make sure they all exist and try again!"
-	exit 1
-fi
-
-if [ ! -d /var/www/html/jeff-existential-crisis-level ]
-then
-	mkdir -p /var/www/html/jeff-existential-crisis-level
-	chmod 755 /var/www/html/jeff-existential-crisis-level
-fi
-cp style.css index.html jeff-existential-crisis-level.html /var/www/html/jeff-existential-crisis-level/
-
-cd ../characters
-if [ ! -f style.css ] || [ ! -f index.html ]
-then
-	echo >&2 "Could not find index page or style sheet.
-	Make sure they all exist and try again!"
-	exit 1
-fi
-
-if [ ! -d /var/www/html/characters ]
-then
-	mkdir -p /var/www/html/characters
-	chmod 755 /var/www/html/characters
-fi
-cp style.css index.html /var/www/html/characters/
-
 chmod -R o+r /var/www/html
