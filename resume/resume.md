@@ -27,7 +27,7 @@ networking.
 
 - Design, build, and maintain host management system (Puppet) and orchestration (RunDeck)
 - Implement documentation standards for all systems applications and backfilled documentation for existing systems.
-- Work directly with end users to resolve complex requests including successfully diffusing high-conflict problems.
+- Work directly with end users to resolve complex requests including successfully defusing high-conflict problems.
 - Initiate, plan, and maintain version control (Git) best practices for scripts, projects, and code bases
 
 ### Systems Administrator
