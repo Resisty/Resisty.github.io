@@ -15,7 +15,18 @@ networking.
 
 ### Linux Systems Administrator
 
-#### Network Operations Center (NOC) - Jive Software, Portland, OR (November 2014 - Present)
+#### Platform Operations Engineer - Jive Software, Portland, OR (June 2016 - Present)
+
+- Monitor and triage incidents for infrastructure VMs and applications
+- Maintain kubernetes stacks; build, deploy, monitor, analyze for growth
+- Python "code school" subject matter expert; lessons, code reviews, advice, support for anybody at Jive
+- Collaborate on developing and maintaining documentation for operations services, e.g. LDAP, Puppet, Ansible, Kubernetes, DNS
+- Develop and maintain source code for
+    - automated LDAP accounts
+    - kubernetes+applications secrets management
+    - Lemur certificate manager automation
+
+#### Network Operations Center (NOC) - Jive Software, Portland, OR (November 2014 - June 2016)
 
 - Monitor and triage incidents for both infrastructure and customer VMs and applications
 - Collaborate on developing and maintaining documentation for common NOC processes, tools, and scripts
