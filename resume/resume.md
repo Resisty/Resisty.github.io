@@ -1,57 +1,45 @@
-## Objective
-
-To obtain a full-time systems administrator position that will leverage
-my knowledge in software development, systems administration, and
-networking.
-
 ## Skills Profile
 
-- Languages & Software: Python, Bash/Shell, Perl, Nagios, Centreon, RunDeck, Puppet
+- Automation via Python, Bash, and orchestration tools (Rundeck)
+- Microservices creation and deployment (Docker, Kubernetes)
+- Stateful configuration management (Puppet, Ansible, Terraform)
 - Operating Systems: Linux (Ubuntu/CentOS), Solaris, Mac OSX, Windows XP/Vista/7, F5 BigIP Load-Balancer
-- Enterprise Cloud Servers (RackSpace), open source virtual environments (Libvirt/kvm)
-- Speak Japanese & Mandarin Chinese
+- Enterprise Cloud Environments (AWS, Rackspace), datacenter virtualization (VirtualCenter, Libvirt/Qemu)
+- Japanese & Mandarin Chinese
 
 ## Employment History
 
-### Linux Systems Administrator
-
-#### Platform Operations Engineer - Jive Software, Portland, OR (June 2016 - Present)
+### Platform Operations Engineer - Jive Software, Portland, OR (June 2016 - Present)
 
 - Monitor and triage incidents for infrastructure VMs and applications
 - Maintain kubernetes stacks; build, deploy, monitor, analyze for growth
 - Python "code school" subject matter expert; lessons, code reviews, advice, support for anybody at Jive
 - Collaborate on developing and maintaining documentation for operations services, e.g. LDAP, Puppet, Ansible, Kubernetes, DNS
 - Develop and maintain source code for
-    - automated LDAP accounts
+    - automated LDAP and AWS accounts
     - kubernetes+applications secrets management
     - Lemur certificate manager automation
 
-#### Network Operations Center (NOC) - Jive Software, Portland, OR (November 2014 - June 2016)
+### Network Operations Center (NOC) - Jive Software, Portland, OR (November 2014 - June 2016)
 
 - Monitor and triage incidents for both infrastructure and customer VMs and applications
 - Collaborate on developing and maintaining documentation for common NOC processes, tools, and scripts
 - Develop and maintain source code (Python, jQuery) and database (postgresql) for NOC orchestration and reporting tool
 
-### Linux Systems Administrator
-
-#### School of Math - University of Minnesota, Minneapolis, MN (April 2013 - November 2014)
+### School of Math - University of Minnesota, Minneapolis, MN (April 2013 - November 2014)
 
 - Design, build, and maintain host management system (Puppet) and orchestration (RunDeck)
 - Implement documentation standards for all systems applications and backfilled documentation for existing systems.
 - Work directly with end users to resolve complex requests including successfully defusing high-conflict problems.
 - Initiate, plan, and maintain version control (Git) best practices for scripts, projects, and code bases
 
-### Systems Administrator
-
-#### Operations Team - Digi Intl. Headquarters, Minnetonka, MN (June 2011 - April 2013)
+### Operations Team - Digi Intl. Headquarters, Minnetonka, MN (June 2011 - April 2013)
 
 - Build, maintain, and respond as primary on-call team member of monitoring solution for uptime and trending of server clusters, in particular iDigi (my.idigi.com)
 - Maintain and tune test and development environment provisioning system for software engineers utilizing Active Directory, Microsoft SQL, Puppet, and Python
 - Write and maintain documentation on standards for configuration management, change management, scripts, and monitoring practices surrounding my.idigi.com
 
-### Systems Administrator
-
-#### School of Computer Science - University of Minnesota, Minneapolis, MN (Fall 2009 - June 2011)
+### School of Computer Science - University of Minnesota, Minneapolis, MN (Fall 2009 - June 2011)
 
 - Verify, correct, and restore Amanda backup software process results
 - Manage and resolve end user requests via RT Task Management software
