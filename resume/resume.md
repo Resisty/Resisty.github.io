@@ -1,6 +1,6 @@
 ## Skills Profile
 
-- Automation via Python, Bash, and orchestration tools (Rundeck)
+- Automation via Python, Golang, Bash, and orchestration tools (Rundeck)
 - Microservices creation and deployment (Docker, Kubernetes)
 - Stateful configuration management (Puppet, Ansible, Terraform)
 - Operating Systems: Linux (Ubuntu/CentOS), Solaris, Mac OSX, Windows XP/Vista/7, F5 BigIP Load-Balancer
@@ -18,7 +18,7 @@
 - Develop and maintain source code for
     - automated LDAP and AWS accounts
     - kubernetes+applications secrets management
-    - Lemur certificate manager automation
+    - Lemur certificate manager automation (Golang)
 
 ### Network Operations Center (NOC) - Jive Software, Portland, OR (November 2014 - June 2016)
 
