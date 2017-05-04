@@ -11,14 +11,14 @@
 
 ### Platform Operations Engineer - Jive Software, Portland, OR (June 2016 - Present)
 
-- Monitor and triage incidents for infrastructure VMs and applications
-- Maintain kubernetes stacks; build, deploy, monitor, analyze for growth
+- Monitor and maintain infrastructure services; LDAP, Puppet, Ansible, Kubernetes
+- Develop and maintain documentation for infrastructure services; LDAP, Puppet, Ansible, Kubernetes
+- Automate building and deployment of kubernetes stacks (Ansible and Terraform)
 - Python "code school" subject matter expert; lessons, code reviews, advice, support for anybody at Jive
-- Collaborate on developing and maintaining documentation for operations services, e.g. LDAP, Puppet, Ansible, Kubernetes, DNS
 - Develop and maintain source code for
     - automated LDAP and AWS accounts
     - kubernetes+applications secrets management
-    - Lemur certificate manager automation (Golang)
+    - Lemur client certificate automation (Golang)
 
 ### Network Operations Center (NOC) - Jive Software, Portland, OR (November 2014 - June 2016)
 
@@ -49,11 +49,3 @@
 
 - Bachelor of Science - Computer Science - University of Minnesota - May 2011
 - Bachelor of Arts - Asian Languages & Literature - University of Minnesota - December 2007
-
-## Activities
-
-- Member, University of Minnesota student chapter of Association for Computing Machinery, University of Minnesota, 2009-2011
-- Treasurer, University of Minnesota Association for Computing Machinery, University of Minnesota 2009-2010
-- Vice President, University of Minnesota Association for Computing Machinery, University of Minnesota 2010-2011
-- Volunteer, 2010-2011 Software Development Contest
-- Software developer and presenter for nationally-selected User Interface Design Project "*The Infected*" - 2010 Conference on Human Factors in Computing Systems, Atlanta, GA
