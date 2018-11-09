@@ -9,6 +9,20 @@
 
 ## Employment History
 
+### Systems Dev Engineer - AWS Elemental, Portland, OR (August 2017 - Present)
+
+- Monitor, maintain, and document infrastructure services
+    - Ansible, Terraform, Jenkins, AWS (various)
+- Automate building and deployment of services and tools
+    - Sonatype Nexus 3 in ECS HA-cluster
+    - Jenkins pipelines with test-on-commit
+    - Fluentd+Kinesis+ElasticSearch logging/alerting stack
+    - Terraform and Cloudformation projects and stacks
+- Develop and maintain source code for
+    - Automated streaming tool in Lambda+ECS for developers
+    - Custom git review tool in Python
+    - Code coverage analysis and reporting in Python, AWS Lambda, AWS ECS, and Slack integration
+
 ### Platform Operations Engineer - Jive Software, Portland, OR (June 2016 - Present)
 
 - Monitor and maintain infrastructure services; LDAP, Puppet, Ansible, Kubernetes
