@@ -19,7 +19,7 @@
     - Fluentd+Kinesis+ElasticSearch logging/alerting stack
     - Terraform and Cloudformation projects and stacks
 - Develop and maintain source code for
-    - Automated streaming tool in Lambda+ECS for developers
+    - Automated end-to-end video streaming service in AWS Lambda+ECS for developers/testing, supporting RTP, RTMP, Zixi
     - Custom git review tool in Python
     - Code coverage analysis and reporting in Python, AWS Lambda, AWS ECS, and Slack integration
 
