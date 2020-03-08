@@ -1,2 +1,6 @@
 *.pdf
 *.log
+*.png
+*.gif
+*.ico
+img/

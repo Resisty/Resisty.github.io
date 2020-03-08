@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>World of Warcraft Character Levels Counter - Brian Auron - brianauron.info</title>
+    <title>Countdown Until T Is Gone</title>
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-    <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='/t-countdown/css/style.css'>
   </head>
   <body>
     <div class='container'>
@@ -18,12 +18,29 @@
             </ul>
         </div>
       </div>
-      <div id='content'></div>
+      <div id='thepanel' class='panel panel-default'>
+	  <div class='panel-heading'>Hours Until T Is Gone</div>
+	  <div class='panel-body' id='content'></div>
+      </div>
+      <div id='gibrow' class='row'>
+          <div class='col-md-12 text-center'>
+	      <h1>༼ つ ◕_◕ ༽つ</h1>
+          </div>
+      </div>
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <script>
-      $('#content').load('/scrape_characters');
+    <script src="/t-countdown/js/jquery.countdown.js"></script>
+    <script type='text/javascript'>
+	$('#content').countdown('2016/02/19', function(event) {
+	    var totalHours = event.offset.totalDays * 24 + event.offset.hours;
+	    $(this).html(event.strftime(totalHours + ' hr %M min %S sec'));
+	    if ( event.elapsed ) {
+	    	$('#thepanel').remove();
+	    	$('#gibrow').remove();
+		$("<style> body { background: url(/t-countdown/img/missionaccomplished.jpg) ; background-size: cover; }</style>").appendTo("head")
+	    }
+	});
     </script>
   </body>
 </html>
