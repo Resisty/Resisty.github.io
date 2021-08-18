@@ -22,6 +22,10 @@
     - Automated end-to-end video streaming service in AWS Lambda+ECS for developers/testing, supporting RTP, RTMP, Zixi
     - Custom git review tool in Python
     - Code coverage analysis and reporting in Python, AWS Lambda, AWS ECS, and Slack integration
+- Design and implement source control and CI/CD system which meets Amazon security standards
+    - Maintain product development/release velocity while shifting from Jenkins to AWS CodeSuite
+    - Reduce/remove static credential use; require role-assumption for all operations
+    - Develop and maintain tools for working in new environment, e.g. git+s3 lfs storage
 
 ### Platform Operations Engineer - Jive Software, Portland, OR (June 2016 - Present)
 
