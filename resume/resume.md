@@ -1,5 +1,6 @@
 ## Skills Profile
 
+- Metrics and Observability tools (Prometheus, Thanos, Grafana, AlertManager)
 - Automation via Python, Golang, Bash, and orchestration tools (Rundeck)
 - Microservices creation and deployment (Docker, Kubernetes)
 - Stateful configuration management (Puppet, Ansible, Terraform)
@@ -9,7 +10,23 @@
 
 ## Employment History
 
-### Systems Dev Engineer - AWS Elemental, Portland, OR (August 2017 - Present)
+### Principal Member of Senior Technical Staff - Oracle, Portland, OR (November 2021 - March 2026)
+
+- Design and implement features for observability platform
+    - Kubernetes operators
+    - Automating builds and deployments for e.g. Grafana, Prometheus, Thanos
+    - Unit and integration tests
+    - Enhancing Prometheus 3+ to work with legacy metrics exporters
+- Introduced unit and integration tests for platform management console
+    - Tests in nodejs and shell
+- Owned/maintained layer 4 proxy software, "Shuttleproxy" with respect to custom requirements
+    - Updated codebase to Python 3.9+
+    - Fixed and increased unit test coverage
+- Participated in on-call rotation
+    - Address incoming alerts; triage problems and document findings regarding why they happened
+    - Follow-up after rotation to implement features/fixees to Make On-Call Happy Again (MOCHA)
+
+### Systems Dev Engineer - AWS Elemental, Portland, OR (August 2017 - September 2021)
 
 - Monitor, maintain, and document infrastructure services
     - Ansible, Terraform, Jenkins, AWS (various)

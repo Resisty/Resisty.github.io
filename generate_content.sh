@@ -32,7 +32,7 @@ then
 	exit 1
 fi
 
-pandoc -S -o resume.html header.md resume.md
+pandoc -o resume.html header.md resume.md
 
 
 if [ ! -f resume.html ] 
@@ -42,5 +42,5 @@ then
 	exit 2
 fi
 
-xvfb-run -a -s "-screen 0 640x480x16" wkhtmltopdf index.html resume.pdf
+xvfb-run -a -s "-screen 0 640x480x16" wkhtmltopdf --enable-local-file-access index.html resume.pdf
 aws s3 cp --recursive $DIR s3://brianauron.info
