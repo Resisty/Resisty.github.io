@@ -44,7 +44,7 @@
     - Reduce/remove static credential use; require role-assumption for all operations
     - Develop and maintain tools for working in new environment, e.g. git+s3 lfs storage
 
-### Platform Operations Engineer - Jive Software, Portland, OR (June 2016 - Present)
+### Platform Operations Engineer - Jive Software, Portland, OR (June 2016 - August 2017)
 
 - Monitor and maintain infrastructure services; LDAP, Puppet, Ansible, Kubernetes
 - Develop and maintain documentation for infrastructure services; LDAP, Puppet, Ansible, Kubernetes
